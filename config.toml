@@ -69,7 +69,7 @@ unsafe = true
   home_mode = "post"                                     # [post, other] home mode
   home_paginate = 6                                      # special amount of posts in each home post page
 
-  subtitle = "This was cool to do, for a while... right?"  # subtitle shown in home page
+  subtitle = "sudo /usr/bin/dump-thoughts > /dev/null"  # subtitle shown in home page
 
   socialShare = true                                     # whether to show social share links in post page
 
@@ -114,14 +114,14 @@ unsafe = true
     email = "lowell.mower@gmail.com"
 
   [params.social]                                        # Social Info in home page
-    GitHub = "xxxx"
-    Linkedin = "xxxx"
-    Twitter = "xxxx"
+    GitHub = "lowellmower"
+    Linkedin = "lowellmower"
+    Twitter = "lowellmower"
     #Instagram = "xxxx"
-    #Email = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
-    #Medium = "xxxx"
+    Email = "lowell.mower@gmail.com"
+    #Facebook = "xxxx"
+    #Telegram = "xxxx"
+    Medium = "@lowellmower"
     #Gitlab = "xxxx"
     #Youtubelegacy = "xxxx"
     #Youtubecustom = "xxxx"
@@ -177,9 +177,9 @@ unsafe = true
   [params.share]                                         # Social Share Links in post page
     enable = true
     Twitter = true
-    Facebook = true
+    #Facebook = true
     Reddit = true
-    #Linkedin = true
+    Linkedin = true
     #Pinterest = true
     #HackerNews = true
     #Mix = true
@@ -188,7 +188,7 @@ unsafe = true
     #Weibo = true
 
   [params.publisher]                                     # Publisher Info just for SEO
-    name = "XXXX"
+    name = "Lowell Mower"
     [params.publisher.logo]
       url = "logo.png"
       width = 127
