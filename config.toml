@@ -69,7 +69,7 @@ unsafe = true
   home_mode = "post"                                     # [post, other] home mode
   home_paginate = 6                                      # special amount of posts in each home post page
 
-  subtitle = "sudo /usr/bin/dump-thoughts > /dev/null"  # subtitle shown in home page
+  subtitle = "/usr/local/bin/dump-thoughts > /dev/null"  # subtitle shown in home page
 
   socialShare = true                                     # whether to show social share links in post page
 
