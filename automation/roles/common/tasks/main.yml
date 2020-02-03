@@ -1,0 +1,12 @@
+---
+# roles/common/tasks/main.yml
+
+- name: Make a backup of the current release
+  command: cp -r /root/hugo-blog/ /root/backups/
+
+- name: Ship up file changes on Git hook
+  copy:
+    src: "{{ local_hugo_path }}"
+    dest: "{{ remote_hugo_path }}"
+    owner: root
+    group: root

@@ -1,0 +1,7 @@
+---
+# file: hugo_site.yml
+- hosts: prod-dns
+  remote_user: root
+  tasks:
+    - include_role:
+        name: common

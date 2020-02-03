@@ -1,0 +1,7 @@
+# production server inventory
+
+[prod-dns]
+lowellmower.com
+
+[prod-ip]
+174.138.38.146

@@ -1,0 +1,4 @@
+# roles/common/vars/main.yml
+
+local_hugo_path: "/Users/lowellmower/projects/hugo-blog"
+remote_hugo_path: "/root/"
