@@ -1,5 +1,5 @@
 ---
-title: "Theme Template and Documentation"
+title: "Site Documentation"
 date: 2020-02-01T16:22:42+08:00
 lastmod: 2020-02-01T16:22:42+08:00
 draft: false
